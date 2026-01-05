@@ -1,5 +1,5 @@
 ## ZOFC
-This is implmentation of ZO-FC for paper: <a href="https://www.arxiv.org/abs/2510.21019">[More Than Memory Savings: Zeroth-Order Optimization Mitigates Forgetting in Continual Learning]</a>.
+This is implmentation of our WACV2026 paper: <a href="https://www.arxiv.org/abs/2510.21019">[More Than Memory Savings: Zeroth-Order Optimization Mitigates Forgetting in Continual Learning]</a>.
 
 ## how to use
 
