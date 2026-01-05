@@ -3,15 +3,6 @@ This is implmentation of our WACV2026 paper: <a href="https://www.arxiv.org/abs/
 
 ## how to use
 
-### Clone
-
-Clone this GitHub repository:
-
-```
-git clone https://github.com/Brian-WY/ZOFC
-cd ZOFC
-```
-
 ### Dependencies
 
 1. [torch 2.0.1](https://github.com/pytorch/pytorch)
