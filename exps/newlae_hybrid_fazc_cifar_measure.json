@@ -1,0 +1,48 @@
+{
+    "prefix": " ",
+    "dataset": "cifar224",
+    "memory_size": 0,
+    "memory_per_class": 0,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 5,
+    "increment": 5,
+    "model_name": "newlae",
+    "backbone_type": "vit_base_patch16_224_in21k_newlae",
+    "device": ["6"],
+    "seed": [1993],
+    "tuned_epoch": 20,
+    "init_lr": 0.01,
+    "batch_size": 48,
+    "weight_decay": 0,
+    "min_lr": 1e-5,
+    "optimizer": "zo_sgd",
+    "scheduler": "constant",
+    "reinit_optimizer": true,
+
+    "pretrained": true,
+    "drop": 0.0,
+    "drop_path": 0.0,
+    "ema_decay": 0.9999,
+    "num_freeze_epochs": 0,
+    "pet_cls": "Adapter",
+    "pet_length": 10,
+    "down_sample_dim": 5,
+    "trainer": "hybrid_spsa",
+    "print_forget": true,
+
+
+    "max_norm": 1.0,
+    "pet_lr": 0.01,
+    "fc_lr": 0.01,
+    "fc_epoch": 10,
+    "eps": 0.001,
+    "q_spsa": 4,
+
+    "num_tasks": 20,
+    "save_path": "save_model/newlae_hybrid/fazc_cifar_inc5_measure.pth",
+
+    "rho_unified": 0.005,
+    "n_directions_unified": 100,
+    "rho_first": 0.005
+}

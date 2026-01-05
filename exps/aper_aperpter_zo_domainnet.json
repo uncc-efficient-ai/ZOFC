@@ -1,0 +1,30 @@
+{
+    "prefix": "",
+    "dataset": "domainnet",
+    "data_path": "data/domainnet",
+    "memory_size": 0,
+    "memory_per_class": 0,
+    "fixed_memory": false,
+    "shuffle": false,
+    "init_cls": 69,
+    "increment": 69,
+    "model_name": "aper_adapter",
+    "backbone_type": "pretrained_vit_b16_224_in21k_adapter",
+    "device": ["2"],
+    "seed": [1993],
+    
+    "tuned_epoch":20,
+    "init_lr":0.05,
+    "batch_size":16,
+    "weight_decay":0.0000,
+    "min_lr":0,
+    "ffn_num":64,
+    "optimizer":"zo_sgd",
+    "vpt_type":"shallow",
+    "prompt_token_num":5,
+
+    "eps": 0.001,
+    "q_spsa": 4,
+    "print_forget": true
+}
+

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.log
+
+.idea/
+.vscode/
+
+data/
+dataloaders/
+logs/
+
+# optional:
+*.ckpt
+*.pth
+*.pt

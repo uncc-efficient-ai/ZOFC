@@ -1,0 +1,35 @@
+{
+    "prefix": " ",
+    "dataset": "cifar224",
+    "memory_size": 0,
+    "memory_per_class": 0,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 5,
+    "increment": 5,
+    "model_name": "coda_prompt",
+    "backbone_type": "vit_base_patch16_224_in21k_coda_prompt",
+    "device": ["0"],
+    "seed": [1993],
+    
+    "trainer": "ZO",
+    "optimizer": "zo_sgd",
+    "tuned_epoch": 2,
+    "init_lr": 0.01,
+    "batch_size": 48,
+    "weight_decay": 0,
+    "min_lr": 1e-5,
+    "scheduler": "constant",
+    "reinit_optimizer": true,
+
+    "pretrained": true,
+    "drop": 0.0,
+    "drop_path": 0.0,
+
+    "prompt_param": [100, 8.0, 0.0],
+    "print_forget": true,
+
+    "eps": 0.001,
+    "q_spsa": 4,
+    "max_norm": 1.0
+}
